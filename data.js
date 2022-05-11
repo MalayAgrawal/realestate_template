@@ -55,13 +55,41 @@ const data = {
         content: "Tru Windchimes Residences Bellandur is a unique apartment composed of 2, 2.5 & 3 BHK Bellandur. Windchimes is right backside of RMZ, Eco-world is nearest to one of the biggest tech park zone of Bangalore India. It is very difficult to find affordable apartments close to work places and Tech park zones. The Tru Windchimes residences Doddanekundi offers numerous options at the best price. One of the most awaited projects in Bangalore from one the most stable companies in Bangalore. It is one of the best upcoming properties in Bangalore for all looking to buy properties in a prime location."
     },
     location: {
-        location__content: "Bangalore, also known as Bengaluru (Kannada) is the capital of the Indian State of Karnataka. Bangalore is nicknamed the Garden City and was once called a Pensioner's Paradise. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city. There are a number of expats from across the world living in the city, thanks to the growing presence of Multi-National Companies."
+        location__content: "Bangalore, also known as Bengaluru (Kannada) is the capital of the Indian State of Karnataka. Bangalore is nicknamed the Garden City and was once called a Pensioner's Paradise. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city. There are a number of expats from across the world living in the city, thanks to the growing presence of Multi-National Companies.",
+        nearby:{
+            nearby1: "Govt Primary School - 1.9 Km",
+            nearby2: "Macaulay English High School - 2.3 Km",
+            nearby3: "Spandana Hospital - 1.8 Km",
+            nearby4: "Kshema Hospital - 6.8 Km",
+            nearby5: "Sri Balaji Chithra Mandira - 2.6 Km",
+            nearby6: "Daffodils - 1.6 Km",
+        }
     }
 }
 
 
 let location__content = document.getElementById("location__content")
 location__content.innerText = data.location.location__content
+
+
+let location__nearby1 = document.getElementById("location__nearby1")
+location__nearby1.innerText = data.location.nearby.nearby1
+
+
+let location__nearby2 = document.getElementById("location__nearby2")
+location__nearby2.innerText = data.location.nearby.nearby2
+
+let location__nearby3 = document.getElementById("location__nearby3")
+location__nearby3.innerText = data.location.nearby.nearby3
+
+let location__nearby4 = document.getElementById("location__nearby4")
+location__nearby4.innerText = data.location.nearby.nearby4
+
+let location__nearby5 = document.getElementById("location__nearby5")
+location__nearby5.innerText = data.location.nearby.nearby5
+
+let location__nearby6 = document.getElementById("location__nearby6")
+location__nearby6.innerText = data.location.nearby.nearby6
 
 let overview__heading = document.getElementById("overview__heading")
 overview__heading.innerText = data.overview.heading
@@ -101,3 +129,33 @@ about__heading.innerText = data.about.heading
 
 let about__content = document.getElementById("about__content")
 about__content.innerText = data.about.content
+
+let amenities1 = document.getElementById("amenities1")
+amenities1.innerText = data.amenities.amenities1
+
+let amenities2 = document.getElementById("amenities2")
+amenities2.innerText = data.amenities.amenities2
+
+let amenities3 = document.getElementById("amenities3")
+amenities3.innerText = data.amenities.amenities3
+
+let amenities4 = document.getElementById("amenities4")
+amenities4.innerText = data.amenities.amenities4
+
+let amenities5 = document.getElementById("amenities5")
+amenities5.innerText = data.amenities.amenities5
+
+let amenities6 = document.getElementById("amenities6")
+amenities6.innerText = data.amenities.amenities6
+
+let amenities7 = document.getElementById("amenities7")
+amenities7.innerText = data.amenities.amenities7
+
+let amenities8 = document.getElementById("amenities8")
+amenities8.innerText = data.amenities.amenities8
+
+let amenities9 = document.getElementById("amenities9")
+amenities9.innerText = data.amenities.amenities9
+
+let amenities10 = document.getElementById("amenities10")
+amenities10.innerText = data.amenities.amenities10
