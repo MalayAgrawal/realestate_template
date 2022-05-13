@@ -1061,7 +1061,9 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: #212529;
+    background-color: #fff;
+    border-color: #171717;
+    color: #181818;
     text-decoration: none
 }
 
@@ -1079,8 +1081,8 @@ textarea.form-control.is-invalid {
     font-size: 14px;
     padding: 5px 10px;
     color: #fff;
-    background-color: #a88944;
-    border-color: #a88944
+    background-color: #171717;
+    border-color: #181818
 }
 
 .btn-primary:hover {
@@ -7982,7 +7984,10 @@ body {
     width: 80px;
     height: 80px
 }
-
+.newBtn {
+    background-color: #171717;
+    color: #ffffff;
+}
 @keyframes a {
     0%,
     to {
@@ -8464,7 +8469,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
+    background-color: #171717;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 16px!important;

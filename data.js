@@ -65,6 +65,12 @@ const data = {
     newLaunch: {
         heading: "Tru Windchimes Residences",
         content: "2,2.5 & 3 BHK Apartment for sale Bellandur",
+        btn__heading: "Most Awaited Launch",
+        lines: {
+            line1: "2 & 3 BHK APARTMENT",
+            line2: "242 UNITS",
+            line3: "4 ACRES",
+        }
     },
     overview: {
         heading: "Tru Windchimes Residences",
@@ -85,6 +91,18 @@ const data = {
     }
 }
 
+
+let newLaunch__btn__heading = document.getElementById("newLaunch__btn__heading")
+newLaunch__btn__heading.innerText = data.newLaunch.btn__heading
+
+let newLaunch__line1 = document.getElementById("newLaunch__line1")
+newLaunch__line1.innerText = data.newLaunch.lines.line1
+
+let newLaunch__line2 = document.getElementById("newLaunch__line2")
+newLaunch__line2.innerText = data.newLaunch.lines.line2
+
+let newLaunch__line3 = document.getElementById("newLaunch__line3")
+newLaunch__line3.innerText = data.newLaunch.lines.line3
 
 let gallery__slider__img1 = document.getElementById("gallery__slider__img1")
 gallery__slider__img1.src = data.gallery__slider.gallery__slider__img1
