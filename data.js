@@ -1,24 +1,32 @@
 const data = {
+    logoColor: "#fff",
+    header__logo__img: "https://ik.imagekit.io/q8qsfnr9wag/logo_NvwiEc4lb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652414823693",
+    background_images:{
+        slider_img1:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        slider_img2:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        slider_img3:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058"
+    },
     about: {
-        heading: "About Tru Dwellings",
+        heading: "About Tru Dwellings ABC",
         content: "Tru Windchimes Residences Bellandur is one unique boutique apartment consisting of 2 and 3 BHK. As we all know that traffic is increasing day by day and the cost of the apartment is soaring high. Tru windchimes residences Bellandur is one such apartment which is located very close to Doddanekundi. It's difficult for all looking to buy affordable apartments in Bellandur but here we are with an excellent option for you to buy. Tru windchimes residences apartment Bellandur Doddanekundi is being offered at the best price for one to choose from the various options available."
     },
+
     amenities: {
-        amenities1: "Amphitheatre",
+        amenities1: "Table Tennis",
         amenities2: "Event Lawns",
         amenities3: "Gym",
         amenities4: "Kids Play Area",
         amenities5: "Infinity Pool",
         amenities6: "Yoga",
         amenities7: "Jogging Track",
-        amenities8: "Cricket Pitch",
-        amenities9: "Half Basketball Court",
-        amenities10: "Volleyball Court"
+        amenities8: "Pool Table",
+        amenities9: "Basketball Court",
+        amenities10: "Volleyball Court",
     },
     sfp: {
         sfp1: {
-            heading: "2 BHK",
-            img_url: ""
+            heading: "4 BHK",
+            img_url: "https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058"
         },
         sfp2: {
             heading: "3 BHK",
@@ -56,7 +64,7 @@ const data = {
     },
     location: {
         location__content: "Bangalore, also known as Bengaluru (Kannada) is the capital of the Indian State of Karnataka. Bangalore is nicknamed the Garden City and was once called a Pensioner's Paradise. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city. There are a number of expats from across the world living in the city, thanks to the growing presence of Multi-National Companies.",
-        nearby:{
+        nearby: {
             nearby1: "Govt Primary School - 1.9 Km",
             nearby2: "Macaulay English High School - 2.3 Km",
             nearby3: "Spandana Hospital - 1.8 Km",
@@ -67,6 +75,37 @@ const data = {
     }
 }
 
+
+let header__logo__img = document.getElementById("header__logo__img")
+header__logo__img.src = data.header__logo__img
+
+let slider_img1 = document.getElementById("slider_img1")
+slider_img1.src = data.background_images.slider_img1
+
+let slider_img2 = document.getElementById("slider_img2")
+slider_img2.src = data.background_images.slider_img2
+
+let slider_img3 = document.getElementById("slider_img3")
+slider_img3.src = data.background_images.slider_img3
+
+
+let sfp1__heading = document.getElementById("sfp1__heading")
+sfp1__heading.innerText = data.sfp.sfp1.heading
+
+let sfp1__img = document.getElementById("sfp1__img")
+sfp1__img.src = data.sfp.sfp1.img_url
+
+let sfp2__heading = document.getElementById("sfp2__heading")
+sfp2__heading.innerText = data.sfp.sfp2.heading
+
+let sfp2__img = document.getElementById("sfp2__img")
+sfp2__img.src = data.sfp.sfp2.img_url
+
+let sfp3__heading = document.getElementById("sfp3__heading")
+sfp3__heading.innerText = data.sfp.sfp3.heading
+
+let sfp3__img = document.getElementById("sfp3__img")
+sfp3__img.src = data.sfp.sfp3.img_url
 
 let location__content = document.getElementById("location__content")
 location__content.innerText = data.location.location__content

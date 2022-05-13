@@ -7936,7 +7936,8 @@ body {
     position: fixed;
     width: 75%;
     right: 0;
-    z-index: 2
+    z-index: 2;
+    height: 70%;
 }
 
 .main-slider {
@@ -7945,10 +7946,6 @@ body {
 
 .main-slider-img {
     height: auto;
-}
-
-.ami-block {
-    /* margin: 2.7rem auto */
 }
 
 .ami-div {
@@ -8474,7 +8471,7 @@ body {
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    font-family: Muli-Regular!important!important;
+    font-family: Muli-Regular !important;
 }
 
 .sectio-bro-btn {
