@@ -1,10 +1,18 @@
 const data = {
     logoColor: "#fff",
+    popup__img__logo__1:"https://ik.imagekit.io/q8qsfnr9wag/logo_NvwiEc4lb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652414823693",
+    popup__img__logo__2:"https://ik.imagekit.io/q8qsfnr9wag/logo_NvwiEc4lb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652414823693",
+    header__logo__img__sm: "https://ik.imagekit.io/q8qsfnr9wag/logo_NvwiEc4lb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652414823693",
     header__logo__img: "https://ik.imagekit.io/q8qsfnr9wag/logo_NvwiEc4lb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652414823693",
-    background_images:{
-        slider_img1:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
-        slider_img2:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
-        slider_img3:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058"
+    background_images: {
+        slider_img1: "https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        slider_img2: "https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        slider_img3: "https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058"
+    },
+    gallery__slider:{
+        gallery__slider__img1:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        gallery__slider__img2:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058",
+        gallery__slider__img3:"https://ik.imagekit.io/q8qsfnr9wag/download__1__mwpTrUgtD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652289148058"
     },
     about: {
         heading: "About Tru Dwellings ABC",
@@ -63,6 +71,8 @@ const data = {
         content: "Tru Windchimes Residences Bellandur is a unique apartment composed of 2, 2.5 & 3 BHK Bellandur. Windchimes is right backside of RMZ, Eco-world is nearest to one of the biggest tech park zone of Bangalore India. It is very difficult to find affordable apartments close to work places and Tech park zones. The Tru Windchimes residences Doddanekundi offers numerous options at the best price. One of the most awaited projects in Bangalore from one the most stable companies in Bangalore. It is one of the best upcoming properties in Bangalore for all looking to buy properties in a prime location."
     },
     location: {
+        location__map:"",
+        location__map__img:"",
         location__content: "Bangalore, also known as Bengaluru (Kannada) is the capital of the Indian State of Karnataka. Bangalore is nicknamed the Garden City and was once called a Pensioner's Paradise. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city. There are a number of expats from across the world living in the city, thanks to the growing presence of Multi-National Companies.",
         nearby: {
             nearby1: "Govt Primary School - 1.9 Km",
@@ -76,8 +86,32 @@ const data = {
 }
 
 
+let gallery__slider__img1 = document.getElementById("gallery__slider__img1")
+gallery__slider__img1.src = data.gallery__slider.gallery__slider__img1
+
+let gallery__slider__img2 = document.getElementById("gallery__slider__img2")
+gallery__slider__img2.src = data.gallery__slider.gallery__slider__img2
+
+let gallery__slider__img3 = document.getElementById("gallery__slider__img3")
+gallery__slider__img3.src = data.gallery__slider.gallery__slider__img3
+
+let popup__img__logo__1 = document.getElementById("popup__img__logo__1")
+popup__img__logo__1.src = data.popup__img__logo__1
+
+let popup__img__logo__2 = document.getElementById("popup__img__logo__2")
+popup__img__logo__2.src = data.popup__img__logo__2
+
+let location__map = document.getElementById("location__map")
+location__map.src = data.location.location__map
+
+let location__map__img = document.getElementById("location__map__img")
+location__map__img.src = data.location.location__map__img
+
 let header__logo__img = document.getElementById("header__logo__img")
-header__logo__img.src = data.header__logo__img
+header__logo__img.src = data.header__logo__img__sm
+
+let header__logo__img__sm = document.getElementById("header__logo__img__sm")
+header__logo__img__sm.src = data.header__logo__img__sm
 
 let slider_img1 = document.getElementById("slider_img1")
 slider_img1.src = data.background_images.slider_img1
