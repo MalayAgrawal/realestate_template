@@ -70,6 +70,11 @@ const data = {
             line1: "2 & 3 BHK APARTMENT",
             line2: "242 UNITS",
             line3: "4 ACRES",
+            line4: "",
+            line5: "",
+            line6: "",
+            line7: "",
+            line8: "",
         }
     },
     overview: {
@@ -103,6 +108,22 @@ newLaunch__line2.innerText = data.newLaunch.lines.line2
 
 let newLaunch__line3 = document.getElementById("newLaunch__line3")
 newLaunch__line3.innerText = data.newLaunch.lines.line3
+
+let newLaunch__line4 = document.getElementById("newLaunch__line4")
+newLaunch__line4.innerText = data.newLaunch.lines.line4
+
+let newLaunch__line5 = document.getElementById("newLaunch__line5")
+newLaunch__line5.innerText = data.newLaunch.lines.line5
+
+let newLaunch__line6 = document.getElementById("newLaunch__line6")
+newLaunch__line6.innerText = data.newLaunch.lines.line6
+
+let newLaunch__line7 = document.getElementById("newLaunch__line7")
+newLaunch__line7.innerText = data.newLaunch.lines.line7
+
+let newLaunch__line8 = document.getElementById("newLaunch__line8")
+newLaunch__line8.innerText = data.newLaunch.lines.line8
+
 
 let gallery__slider__img1 = document.getElementById("gallery__slider__img1")
 gallery__slider__img1.src = data.gallery__slider.gallery__slider__img1
