@@ -11,8 +11,8 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <style>
       :root {
-         --colorPrimary: #a88944;
-         --colorSecondry: #a88944;
+         --colorPrimary: var(--mainColor);
+         --colorSecondry: var(--mainColor);
          --colorBtn: #fff;
       }
    </style>
@@ -52,7 +52,7 @@
       }
 
       .svgCheck {
-         fill: #a88944
+         fill: var(--mainColor)
       }
 
       .info-box {
@@ -62,9 +62,9 @@
 
       .rk-btn,
       .rk-btn-2 {
-         text-shadow: 0px 3px 6px #a88944;
-         background-color: #a88944;
-         background: linear-gradient(-45deg, #a88944, #333, #a88944, #333);
+         text-shadow: 0px 3px 6px var(--mainColor);
+         background-color: var(--mainColor);
+         background: linear-gradient(-45deg, var(--mainColor), #333, var(--mainColor), #333);
          background-size: 400% 400%;
          -webkit-animation: Gradient 3s ease infinite;
          -moz-animation: Gradient 3s ease infinite;
@@ -256,7 +256,7 @@
                   <li class="nav-item main-mav-item">
                      <a class="nav-link" href="#sitevisit" title="Prestige City  Site Visit"><img src="assets/svg/site/video-play.png" class="nav-svg-icon" alt="Prestige City  Site Visit">Virtual Visit</a>
                   </li>
-                   <li class="nav-item button main-mav-item" style="background-color: #a88944;">
+                   <li class="nav-item button main-mav-item" style="background-color: var(--mainColor);">
                   <a class="nav-link callModelRK"
                      href="javascript:void(0)"
                      onclick="setCookie('proBro', 'OK')"
@@ -354,7 +354,7 @@
                <style>
                   @media (max-width:768px) {
                      .pro-status {
-                        background: #a88944 !important;
+                        background: var(--mainColor) !important;
                         display: block;
                         padding: 3px;
                         color: #fff;
@@ -378,9 +378,9 @@
                      </div>
                      <div class="col-md-12 mb-0 cst-bg1 text-center" style="padding:4px 0">
                         <ul class="pro-spec">
-                           <li><span class="list-icon" style="color: #a88944;">▸</span> <span class="heading">Total Apartments -</li>
+                           <li><span class="list-icon" style="color: var(--mainColor);">▸</span> <span class="heading">Total Apartments -</li>
                            <!-- <li><span class="list-icon">▸</span> <span class="heading">Total Acres : 7.3 Acres</li> -->
-                           <li><span class="list-icon" style="color: #a88944;">▸</span> <span class="heading">Eden Park : 2200 Appx</li>
+                           <li><span class="list-icon" style="color: var(--mainColor);">▸</span> <span class="heading">Eden Park : 2200 Appx</li>
                            <li><span class="list-icon">▸</span> <span class="heading">Avalon Park : 1000 Appx</li>
 
                         </ul>
@@ -388,8 +388,8 @@
                      </div>
 
                      <span class="d-block mt-1 mb-1" style="font-size: 15px; width: 100%; background: transparent;font-weight: bold; text-align: center;color: #fff; font-weight:bold;" data-toggle="modal" data-name="Enquire Now" data-btn="Send Now" data-form="lg" data-target="#rkEnqForm">
-                        <!-- <span style=" color: #fff;display: block; background-color: #a88944; background: linear-gradient(-45deg, #a88944,#a88944,#a88944,#a88944); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;">Life Of Goa Now In Virar</span> -->
-                        <span style="background: linear-gradient(-45deg, #a88944, #a88944,#a88944,#a88944); display: block; padding: 15px; ">
+                        <!-- <span style=" color: #fff;display: block; background-color: var(--mainColor); background: linear-gradient(-45deg, var(--mainColor),var(--mainColor),var(--mainColor),var(--mainColor)); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;">Life Of Goa Now In Virar</span> -->
+                        <span style="background: linear-gradient(-45deg, var(--mainColor), var(--mainColor),var(--mainColor),var(--mainColor)); display: block; padding: 15px; ">
                            <span class="highlight" style="animation-duration: 3s;display: block;padding: 2px;font-size: 14px!important; text-align: center;color: white; border: 2px solid #fff; border-style: dashed; font-weight:bold">
                            MOST AWAITED LAUNCH <br>
                            Avalon & Eden Park - Luxurious Apartments! <br>
@@ -398,10 +398,10 @@
                         </span>
                      </span>
                      <!-- <span class="d-block mt-1 mb-1" style="font-size: 15px; width: 100%; background: transparent;font-weight: bold; text-align: center;color: #fff; ">
-                     <span style="  color: #fff;display: block; background-color: #a88944; background: linear-gradient(-45deg, #a88944,#a88944,#a88944,#a88944); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;"></span> 
+                     <span style="  color: #fff;display: block; background-color: var(--mainColor); background: linear-gradient(-45deg, var(--mainColor),var(--mainColor),var(--mainColor),var(--mainColor)); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;"></span> 
                   </span> -->
                      <!-- <span class="d-block mt-1 mb-1" style="font-size: 15px; width: 100%; background: transparent;font-weight: bold; text-align: center;color: #fff; " data-toggle="modal" data-name="Enquire Now" data-btn="Send Now" data-form="lg" data-target="#rkEnqForm">
-                        <span style="  color: #fff;display: block; background-color: #a88944; background: linear-gradient(-45deg, #a88944,#a88944,#a88944,#a88944); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;">New Tower Launch - Palm Springs Additional Exclusive Offers Excellent Connectivity</span>
+                        <span style="  color: #fff;display: block; background-color: var(--mainColor); background: linear-gradient(-45deg, var(--mainColor),var(--mainColor),var(--mainColor),var(--mainColor)); background-size: 400% 400%; -webkit-animation: Gradient 3s ease infinite; -moz-animation: Gradient 3s ease infinite; animation: Gradient 3s ease infinite; font-size:15px; padding: 5px;">New Tower Launch - Palm Springs Additional Exclusive Offers Excellent Connectivity</span>
                      </span> -->
                      <div class="col-md-12 mb-3 text-center" style="margin-bottom: 0%!important; padding:0%">
                         <span class="head cst-clr" style="display: block;   font-weight:400">Premium 1, 2, 3 & 4 BHK Starts</span>
@@ -678,10 +678,10 @@
                                  <span class="rk-card-main-heading" style="text-align: left; margin-bottom:10px">Prestige City  - At Off Sarjapur Road, Bangalore</span>
                                  <p style="color:#333; font-size:16px">The Prestige City is a futuristic residential project by the Prestige Group off Sarjapur Road in Bangalore. People who wish to buy a home in Bangalore can now relish their time to come, buy an apartment at The Prestige City of the Prestige Group in Bangalore. It is solely an upcoming project, and many buyers are on the lookout for purchasing a dream home. It also mentions the availability of many payment plans that would be construction linked.</p>
 
-                                 <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: #a88944!important; color: #ffffff!important;" data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
+                                 <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: var(--mainColor)!important; color: #ffffff!important;" data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
                                        <img src="assets/svg/site/bro-download.svg" class="nav-svg-icon slideInDown animated infinite" style="animation-duration: 2s;" alt="Prestige City  Download">&nbsp;&nbsp;Download Brochure <i class="fas fa-download"></i>
                                     </button></center>
-                                 <button style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: #a88944!important; color: #ffffff!important;" class="btn sectio-bro-btn callModelRK d-none d-md-block" data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
+                                 <button style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: var(--mainColor)!important; color: #ffffff!important;" class="btn sectio-bro-btn callModelRK d-none d-md-block" data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
                                     <img src="assets/svg/site/bro-download.svg" class="nav-svg-icon slideInDown animated infinite" style="animation-duration: 2s; " alt="Prestige City  Download">&nbsp;&nbsp;Download Brochure <i class="fas fa-download"></i>
                                  </button>
                                  <!-- <hr>
@@ -813,7 +813,7 @@
                                        </table>
                                        <br>
 
-                                       <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: #a88944!important; color: #ffffff!important; " data-toggle="modal" data-name="Payment Plan" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
+                                       <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: var(--mainColor)!important; color: #ffffff!important; " data-toggle="modal" data-name="Payment Plan" data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
                                              <img src="assets/svg/site/bro-download.svg" class="nav-svg-icon slideInDown animated infinite" style="animation-duration: 2s;" alt="Prestige City  Download">&nbsp;&nbsp;Payment Plan
                                           </button></center>
                                     </div>
@@ -839,7 +839,7 @@
                                           <h5 style="font-size: 20px;">Download CostSheet &nbsp;<img src="assets/svg/site/bro-download.svg" class="nav-svg-icon slideInDown animated infinite" style="animation-duration: 2s; " alt="Prestige City  Download"></h5>
                                        </div>
 
-                                       <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: #a88944!important; color: #ffffff!important;" data-toggle="modal" data-name="Download CostSheet" data-btn="Download CostSheet" data-form="md" data-target="#rkEnqForm">
+                                       <center class="d-block d-md-none"><button class="btn sectio-bro-btn callModelRK" style="animation: Gradient 3s ease infinite, rocking 2s infinite; animation-delay: 2s; background-color: var(--mainColor)!important; color: #ffffff!important;" data-toggle="modal" data-name="Download CostSheet" data-btn="Download CostSheet" data-form="md" data-target="#rkEnqForm">
                                              <img src="assets/svg/site/bro-download.svg" class="nav-svg-icon slideInDown animated infinite" style="animation-duration: 2s;" alt="Prestige City  Download">&nbsp;&nbsp;Download CostSheet
                                           </button></center>
                                     </div>
@@ -1070,19 +1070,19 @@
                              <div class="row">
                               <div class="col-4">
                                  <img src="assets/img/costing-details.jpg" style="border: 1px solid grey;">
-                                    <div class="cost" style="background: #a88944;text-align: center;">
+                                    <div class="cost" style="background: var(--mainColor);text-align: center;">
                                     <h5 style="font-size: 20px;padding-top: 9px;padding-bottom: 9px;">Complete Costing Details</h5>
                                  </div>
                               </div>
                               <div class="col-4">
                                  <img src="assets/img/costing-details.jpg" style="border: 1px solid grey;">
-                                    <div class="cost" style="background: #a88944;text-align: center;">
+                                    <div class="cost" style="background: var(--mainColor);text-align: center;">
                                     <h5 style="font-size: 20px;padding-top: 9px;padding-bottom: 9px;">Complete Costing Details</h5>
                                  </div>
                               </div>
                               <div class="col-4">
                                  <img src="assets/img/costing-details.jpg" style="border: 1px solid grey;">
-                                    <div class="cost" style="background: #a88944;text-align: center;">
+                                    <div class="cost" style="background: var(--mainColor);text-align: center;">
                                     <h5 style="font-size: 20px;padding-top: 9px;padding-bottom: 9px;">Complete Costing Details</h5>
                                  </div>
                               </div>
@@ -1436,7 +1436,7 @@
 
                                  </div>
                                  <br>
-                                 <span class="rk-card-main-heading" style="text-align: left; margin-bottom:10px; color:#a88944; font-weight:500">About Prestige Group</span>
+                                 <span class="rk-card-main-heading" style="text-align: left; margin-bottom:10px; color:var(--mainColor); font-weight:500">About Prestige Group</span>
                                  <p>Over the last decade, the Prestige Group has firmly established itself as one of the leading and most successful developers of real estate in India by imprinting its indelible mark across all asset classes. Founded in 1986, the group’s turnover is today in excess of Rs 3518 Cr (for FY 15); a leap that has been inspired by CMD Irfan Razack and marshaled by his brothers Rezwan Razack and Noaman Razack. As of 30th June 2020, the group has completed 247 projects covering 134 million sft, and currently has 45 ongoing projects covering over 53 million sft, 56 mn sft of upcoming projects, and holds a land bank of 262 acres with potential developable area of 27 mn sft.</p>
                                  <img src="assets/img/pdf.png" data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md" data-target="#rkEnqForm" class="d-block d-md-none highlight" style="position: fixed; top: 1rem; width: 30px; cursor: pointer; z-index: 100000; right: 6rem;">
                               </div>
@@ -2454,7 +2454,7 @@
 
 
    <script type="text/javascript">
-      var sitePrimaryColor = '#a88944';
+      var sitePrimaryColor = 'var(--mainColor)';
    </script>
    <script src="assets/js/app-1-min.js"></script>
 

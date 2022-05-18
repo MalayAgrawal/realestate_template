@@ -23,9 +23,10 @@
 
    <style>
       :root {
-         --colorPrimary: #a88944;
-         --colorSecondry: #a88944;
+         --colorPrimary: var(--mainColor);
+         --colorSecondry: var(--mainColor);
          --colorBtn: #fff;
+         --mainColor: green;
       }
    </style>
 
@@ -63,7 +64,7 @@
       }
 
       .svgCheck {
-         fill: #a88944
+         fill: var(--mainColor)
       }
 
       .info-box {
@@ -73,9 +74,8 @@
 
       .rk-btn,
       .rk-btn-2 {
-         text-shadow: 0px 3px 6px #a88944;
-         background-color: #000000;
-         background: linear-gradient(-45deg, #b17e0c, #b17e0c, #f8f9fa, #b17e0c);
+         text-shadow: 0px 3px 6px var(--mainColor);
+         background-color: var(--mainColor);
          background-size: 400% 400%;
          -webkit-animation: Gradient 3s ease infinite;
          -moz-animation: Gradient 3s ease infinite;
@@ -252,7 +252,7 @@
                      <a class="nav-link cst-logo" href="index.html" title="Tru Windchimes Residences ">
                         <img src="" class="mainLogo" alt="Tru Windchimes Residences  Logo" id="header__logo__img"></a>
                   </li>
-                  <li class="nav-item main-mav-item active" style="background-color: #b17e0c;">
+                  <li class="nav-item main-mav-item active" style="background-color: var(--mainColor);">
                      <a class="nav-link" href="#top" title="Tru Windchimes Residences  Home"><img
                            src="assets/svg/site/home.svg" class="nav-svg-icon"
                            alt="Tru Windchimes Residences  Home"></a>
@@ -283,7 +283,7 @@
                            alt="Tru Windchimes Residences  Location">Location</a>
                   </li>
 
-                  <li class="nav-item button main-mav-item" style="background-color: #b17e0c;">
+                  <li class="nav-item button main-mav-item" style="background-color: var(--mainColor);">
                      <a class="nav-link callModelRK" href="javascript:void(0)" onclick="setCookie('proBro', 'OK')"
                         data-toggle="modal" data-name="Brochure Download" data-btn="Download Now" data-form="md"
                         data-target="#rkEnqForm" title="Tru Windchimes Residences  Download"><img
@@ -399,7 +399,7 @@
                <style>
                   @media (max-width:768px) {
                      .pro-status {
-                        background: #b17e0c !important;
+                        background: var(--mainColor) !important;
                         display: block;
                         padding: 3px;
                         color: #fff;
@@ -443,7 +443,7 @@
                         data-toggle="modal" data-name="Enquire Now" data-btn="Send Now" data-form="lg"
                         data-target="#rkEnqForm">
                         <span
-                           style="background: linear-gradient(-45deg, #b17e0c, #b17e0c,#b17e0c,#b17e0c); display: block; padding: 15px; ">
+                           style="background: linear-gradient(-45deg, var(--mainColor), var(--mainColor),var(--mainColor),var(--mainColor)); display: block; padding: 15px; ">
                            <span class="highlight"
                            id="newLaunch__btn__heading"
                               style="animation-duration: 3s;display: block;padding: 2px;font-size: 14px!important; text-align: center;color: white; border: 2px solid #fff; border-style: dashed; font-weight:bold">
@@ -477,8 +477,7 @@
                            <input type="text" class="form-control rk-input" id="validationCustom03" name="phone"
                               placeholder="Mobile No" autocomplete="off" required>
                         </div>
-                        <button class="btn rk-btn py-2 px-5 " name="submit" type="submit">Pre-Register
-                           Now</button>
+                        <button class="btn rk-btn py-2 px-5" name="submit" type="submit">Pre-Register Now</button>
                      </form>
                      <br>
                   </div>
@@ -1026,101 +1025,8 @@
             </div>
          </section>
       </div>
-      <div class="col-md-3 main-col pos-fix-sidebar sidebar">
-         <div class="organize-block" style="padding-bottom: 0.5rem;">
-            <div class="row og-block">
-               <div class="col-md-6 rt-b">
-                  <a href="#" class="btn btn-org callModelRK text-white"
-                     title="Organize Site Visit For Tru Windchimes Residences " data-toggle="modal"
-                     data-name="Organize Site Visit" data-btn="Request Site Visit" data-form="lg"
-                     data-target="#rkEnqForm">
-                     Organize Site Visit
-                  </a>
-               </div>
-               <div class="col-md-6">
-                  <a class="btn-org"
-                     href="https://api.whatsapp.com/send?phone=+9188XXXXXXXX&amp;text=Hi!%20I'm%20Interested%20In%20Prestige%20City%20Project.%20Please%20Share%20Details."
-                     target="_blank" title="Contact With WhatsApp Now For Tru Windchimes Residences "><svg
-                        xmlns="http://www.w3.org/2000/svg" width="16" height="20.267" viewBox="0 0 20.181 20.267">
-                        <defs>
-                           <style>
-                              .a,
-                              .d {
-                                 fill: #fff;
-                              }
+      <!-- right sidebar -->
 
-                              .b {
-                                 fill: #cfd8dc;
-                              }
-
-                              .c {
-                                 fill: #40c351;
-                              }
-
-                              .d {
-                                 fill-rule: evenodd;
-                              }
-                           </style>
-                        </defs>
-                        <g transform="translate(-3.867 -4)">
-                           <path class="a"
-                              d="M4.867,24.262l1.355-4.946A9.548,9.548,0,1,1,14.5,24.095h0a9.536,9.536,0,0,1-4.563-1.161Z"
-                              transform="translate(-0.497 -0.497)" />
-                           <path class="a"
-                              d="M4.619,24.264a.258.258,0,0,1-.179-.075.254.254,0,0,1-.063-.244L5.7,19.1A9.8,9.8,0,0,1,21.178,7.374,9.8,9.8,0,0,1,9.65,22.952l-4.966,1.3A.247.247,0,0,1,4.619,24.264Z"
-                              transform="translate(-0.249 -0.249)" />
-                           <path class="b"
-                              d="M14,4.5A9.547,9.547,0,0,1,14,23.6h0a9.536,9.536,0,0,1-4.563-1.161L4.37,23.764l1.355-4.946A9.549,9.549,0,0,1,14,4.5M14,23.6h0m0,0h0M14,4A10.053,10.053,0,0,0,5.185,18.885l-1.3,4.746a.5.5,0,0,0,.485.636A.465.465,0,0,0,4.5,24.25l4.871-1.277a10.05,10.05,0,0,0,14.679-8.918A10.05,10.05,0,0,0,14,4Z" />
-                           <path class="c"
-                              d="M21.78,10.533A7.936,7.936,0,0,0,9.444,20.36l.189.3-.8,2.927,3-.788.291.173a7.916,7.916,0,0,0,4.038,1.106h0A7.936,7.936,0,0,0,21.78,10.533Z"
-                              transform="translate(-2.169 -2.092)" />
-                           <path class="d"
-                              d="M16.83,15.633c-.179-.4-.367-.407-.538-.412-.139-.006-.3-.006-.458-.006a.872.872,0,0,0-.634.3,2.666,2.666,0,0,0-.837,1.99,4.654,4.654,0,0,0,.974,2.467,9.823,9.823,0,0,0,4.076,3.6c2.015.794,2.426.636,2.862.6a2.412,2.412,0,0,0,1.611-1.135,2,2,0,0,0,.139-1.133c-.059-.1-.218-.159-.458-.279s-1.41-.7-1.63-.776-.377-.118-.536.12-.617.776-.756.935-.277.179-.517.061a6.535,6.535,0,0,1-1.917-1.184,7.193,7.193,0,0,1-1.328-1.652c-.139-.238-.016-.367.1-.487s.24-.279.359-.418a1.7,1.7,0,0,0,.238-.4.445.445,0,0,0-.02-.418C17.506,17.283,17.043,16.1,16.83,15.633Z"
-                              transform="translate(-5.218 -5.575)" />
-                        </g>
-                     </svg> +91 88XXXXXXXX</a>
-               </div>
-            </div>
-            <div class="pt-1">
-               <p class="og-text">or Request a</p>
-               <button class="btn py-2 px-3 micro-form-btn-sm  effectScale callModelRK" data-toggle="modal"
-                  title="Call Request For Tru Windchimes Residences " data-name="Immediate Call Back"
-                  data-btn="Request Call Now" data-form="sm" data-target="#rkEnqForm">
-                  <img src="assets/svg/site/call-back.svg" class="nav-svg-icon"
-                     alt="Tru Windchimes Residences  Call Back">&nbsp; +91 88XXXXXXXX
-                  </butoon>
-
-            </div>
-         </div>
-         <div class="enq-form p-1 text-center">
-            <br>
-            <h4 class="enq-heading font-weight-bold">Pre-Register here for Best Offers 👍</h4>
-
-            <form action="https://formsubmit.co/gautamvns11@gmail.com" method="POST">
-               <!-- <input type=" hidden" name="pname" value="Tru Windchimes Residences "> -->
-               <input type="hidden" name="form_type" value="Call Back Now">
-               <div class="col-md-12 mt-3 mb-3">
-                  <input type="text" class="form-control rk-input" id="validationCustom01" name="name"
-                     placeholder="Name" autocomplete="off" required>
-               </div>
-               <div class="col-md-12 mt-3 mb-4">
-                  <input type="text" class="form-control rk-input" id="validationCustom03" name="phone"
-                     placeholder="Mobile No" autocomplete="off" required>
-               </div>
-               <button class="btn micro-form-btn-sm newBtn effectScale py-2 px-5" name="submit"
-                  type="submit">Pre-Register Now</button>
-            </form>
-
-         </div>
-         <div class="side-brouchure text-center">
-            <h5>For More Information :</h5>
-            <button class="btn micro-form-btn-sm newBtn effectScale py-2 px-5 callModelRK"
-               onClick="setCookie('proBro', 'OK')" data-toggle="modal" data-name="Brochure Download"
-               data-btn="Download Now" data-form="md" data-target="#rkEnqForm">
-               Download Brochure
-            </button>
-         </div>
-      </div>
    </div>
 
 
@@ -1128,8 +1034,8 @@
       <ul class="nav nav-fill" style="display: flex!important">
 
          <li class="nav-item">
-            <a class="nav-link " href="tel:+9188XXXXXXXX" style="">
-               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 17.993">
+            <a class="nav-link " href="tel:+9188XXXXXXXX" st00yle="background-color: var(--mainColor) !important;">
+               <svg xmlns="http:0000000000000000000000000000000000000000000000/000000000000000000000000/9www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 17.993">
                   <defs>
                      <style>
                         .a {
@@ -1148,12 +1054,12 @@
          <li class="nav-item">
             <a class="nav-link callModelRK " href="javascript:void(0)" data-toggle="modal"
                data-name="Mail Me Complete Details" data-btn="Enquire Now" data-form="lg" data-target="#rkEnqForm"
-               title="Tru Windchimes Residences  Enqiry"><img src="assets/svg/site/msg.svg"
-                  style="width:24px; height: 24px;" class="nav-svg-icon"
+               title="Tru Windchimes Residences  Enqiry" style="background-color: var(--mainColor) !important;"><img src="assets/svg/site/msg.svg"
+                  style="width:24px; height: 24px; " class="nav-svg-icon"
                   alt="Tru Windchimes Residences  Enqiry">&nbsp;Enquire</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link "
+            <a style="background-color: var(--mainColor) !important;" class="nav-link "
                href="https://api.whatsapp.com/send?phone=+9188XXXXXXXX&amp;text=Hi!%20I'm%20Interested%20In%20Prestige%20City%20Project.%20Please%20Share%20Details.">
                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20.181 20.267">
                   <defs>
@@ -1271,7 +1177,7 @@
 
          </div>
 
-         <div class="rk-modal-footer-fill" style="background-color : #b17e0c">
+         <div class="rk-modal-footer-fill" style="background-color : var(--mainColor)">
             <a class="rk-modal-call-link" href="tel:+9188XXXXXXXX">
                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 18 17.993">
                   <defs>
@@ -1389,7 +1295,7 @@
 
 
    <script type="text/javascript">
-      var sitePrimaryColor = '#a88944';
+      var sitePrimaryColor = 'var(--mainColor)';
    </script>
    <script src="assets/js/app-1-min.js"></script>
 
