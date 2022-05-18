@@ -7739,13 +7739,9 @@ body {
 
 .info-box {
     position: fixed;
-    /* margin-left: 1000px;
-    margin-top: 90px; */
     right: 0px;
-    top: 100px;
-    /* left: 1000px; */
-    width: 50rem;
-    height: auto;
+    width: 40rem;
+    height: 80vh;
     padding: 0px 10px;
     background-color: #fff;
     color: #000;
